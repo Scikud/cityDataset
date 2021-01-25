@@ -233,5 +233,5 @@ class PathTraverser():
 
 
 if __name__ == "__main__":
-    generateDataset(desiredNumberOfPoints=1e9,
+    generateDataset(desiredNumberOfPoints=1e6,
                     connectedRadius=70, source='uscitiesSmall.csv')
