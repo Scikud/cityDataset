@@ -98,7 +98,8 @@ print(f'Solution: {solutionText}')
 
 > Start City: Baltimore:MD, End City:Valparaiso:IN
 
-> Solution: Baltimore:MD->Westminster:MD->Shippensburg:PA->Huntingdon:PA->Altoona:PA->Indiana:PA->Butler:PA->Boardman:OH->Tallmadge:OH->Medina:OH->Norwalk:OH->Fremont:OH->Bowling Green:OH->Defiance:OH->Auburn:IN->Warsaw:IN->Plymouth:IN->Valparaiso:IN-><EOS>
+> Solution: Baltimore:MD->Westminster:MD->Shippensburg:PA->Huntingdon:PA->Altoona:PA->Indiana:PA->Butler:PA->Boardman:OH->Tallmadge:OH->Medina:OH->Norwalk:OH->Fremont:OH->Bowling Green:OH->Defiance:OH->Auburn:IN->Warsaw:IN->Plymouth:IN->Valparaiso:IN->\<EOS\>
+ 
 
 ## Some potential helper methods
 
