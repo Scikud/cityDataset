@@ -33,10 +33,6 @@ def getPickleData(path = 'cityPaths.p'):
         return pickle.load(f)
 
 unpickledData = getPickleData(path = 'cityPaths.p')
-
-#Load in dataset
-shortestPathData = ShortestPathDataset(unpickledData)
-
 ```
 
 
@@ -74,6 +70,9 @@ class ShortestPathDataset(Dataset):
 and some sample usage ...
 
 ``` python
+#Load in dataset
+shortestPathData = ShortestPathDataset(unpickledData)
+
 #Randomly pick the 5th path stored in the data
 chosenPath = shortestPathData[4]
 
