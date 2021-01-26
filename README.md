@@ -110,7 +110,7 @@ Below is a quick and dirty collate method (written as a closure for convienence,
 ```python
 def makeCollateFn(paddingIndx):
     pIndx = paddingIndx
-    def prepareLanguageModelSequence(batch):
+    def collateLanguageModelSequence(batch):
         endpoints, paths, lengths = [], [], []
         batchLen = len(batch)
         for each in batch:
@@ -129,5 +129,5 @@ def makeCollateFn(paddingIndx):
             yyPad[i, :lengths[i]-1, ...] = torch.tensor(sequence[1:]).long()
 
         return endpoints,xxPad, yyPad
-    return prepareLanguageModelSequence
+    return collateLanguageModelSequence
 ```
