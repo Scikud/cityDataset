@@ -6,7 +6,7 @@ Shortest Path enumerates the shortest paths between US Cities and is intended to
 
 ## Generating the dataset
 
-Firt run the cityDatasetGeneratory.py script which should generate a pickled object called cityPaths.p
+First run the cityDatasetGeneratory.py script which should generate a pickled object called cityPaths.p
 
 ```bash
 python3 cityDatasetGenerator.py
