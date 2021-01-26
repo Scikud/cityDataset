@@ -1,7 +1,7 @@
 # Shortest Path Dataset
 
 
-Shortest Path enumerates the shortest paths between several us cities and is intended to be used as training data for ML work. 
+Shortest Path enumerates the shortest paths between US Cities and is intended to be used as training data for ML work. 
 
 
 ## Generating the dataset
